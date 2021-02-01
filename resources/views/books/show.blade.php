@@ -4,7 +4,7 @@
 <div class='row' style="text-align:center;margin-top:15px;margin-bottom:15px">
     <div class="col-lg-12 margin-tb">
         <div class="pull-left">
-            <h2>Show Book Information</h2>
+            <h2>Show Information</h2>
         </div>
         <div class="pull-right">
             <a class="btn btn-primary" href="{{route('books.index')}}">Back</a>
@@ -32,7 +32,7 @@
     </div>
     <div calss="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
-            <strong>contact_number<br></strong>
+            <strong>Contact Number<br></strong>
             {{$book->contact_number}}
         </div>
     </div>
